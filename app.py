@@ -12,6 +12,15 @@ st.set_page_config(
 )
 st.markdown("""
 <style>
+    iframe {
+        background-color: white !important;
+        border-radius: 12px !important;
+        padding: 10px !important;
+    }
+    div[data-testid="stHtml"] {
+        background-color: white !important;
+        border-radius: 12px !important;
+    }
 
     @media screen and (max-width: 600px) {
         .main-header {
