@@ -5,7 +5,7 @@ import streamlit.components.v1 as components
 
 #PAGE CONFIGURATION
 st.set_page_config(
-    page_title="SpamShield AI",
+    page_title="SpamShield XAI",
     page_icon="🛡️",
     layout="centered",
     initial_sidebar_state="collapsed"
@@ -129,8 +129,8 @@ def get_explainer():
 explainer = get_explainer()
 
 #UI HEADER
-st.markdown('<div class="main-header">🛡️ SpamShield AI</div>', unsafe_allow_html=True)
-st.markdown('<div class="sub-header">AI-powered email threat detection · Built with Naive Bayes & NLP</div>', unsafe_allow_html=True)
+st.markdown('<div class="main-header">🛡️ SpamShield XAI</div>', unsafe_allow_html=True)
+st.markdown('<div class="sub-header">>AI-powered email threat detection · Built with Naive Bayes & Explainable AI (LIME)</div>', unsafe_allow_html=True)
 
 #INPUT SECTION
 st.markdown("### 📧 Paste Email Content")
